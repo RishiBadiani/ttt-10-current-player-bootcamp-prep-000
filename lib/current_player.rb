@@ -16,3 +16,5 @@ def current_player(board)
     "O"
   end
 end
+
+puts counter.even? ? "X" : "O"
