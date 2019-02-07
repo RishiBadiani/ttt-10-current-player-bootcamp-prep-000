@@ -15,7 +15,7 @@ end
 
 
 #if counter.even?
-  "X"
+  #"X"
 #else
 #  "O"
 #end
