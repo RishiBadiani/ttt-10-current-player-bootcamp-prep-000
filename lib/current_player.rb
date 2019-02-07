@@ -10,12 +10,12 @@ end
 
 def current_player(board)
   counter = turn_count(board)
-  puts counter.even? ? "X" : "O"
+  if counter.even?
+    "X"
+  else
+    "O"
+  end
 end
 
 
-#if counter.even?
-  #"X"
-#else
-#  "O"
-#end
+
